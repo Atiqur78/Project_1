@@ -11,7 +11,7 @@ with open('Task_1/scaler.pkl', 'rb') as f:
     scaler = pkl.load(f)
 
 # Load the classification model
-with open('Task_1/kmeans_model.pkl', 'rb') as f:
+with open('Task_1/rvc_model.pkl', 'rb') as f:
     classifier = pkl.load(f)
 
 with open('Task_1/scaler_clf.pkl', 'rb') as f:
